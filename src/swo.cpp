@@ -70,17 +70,17 @@ namespace swo
 
     void SWO::println(const char *s)
     {
-        printf("%s\r\n", s);
+        printf("%s\n", s);
     }
 
     void SWO::println(char c)
     {
-        printf("%c\r\n", c);
+        printf("%c\n", c);
     }
 
     void SWO::println(int n)
     {
-        printf("%d\r\n", n);
+        printf("%d\n", n);
     }
 
     void SWO::println(bool value)
@@ -121,7 +121,7 @@ namespace swo
             remainder -= to_print;
         }
 
-        print("\r\n");
+        print("\n");
     }
 
 } // namespace swo
