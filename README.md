@@ -27,7 +27,7 @@ To use the JLinkSWO library in your code, include the swo.h header and create an
 #include <mbed.h>
 #include <swo.h>
 
-static swo::SWO swo;
+static SWO swo;
 
 int main() {
    swo.println("Hello, World!");
