@@ -1,0 +1,22 @@
+{
+    "name": "JLinkSWO",
+    "version": "1.0.0",
+    "description": "A library that enables easy integration of Serial Wire Output (SWO) functionality with J-Link debug probes.",
+    "keywords": ["swo", "jlink", "debugging" ],
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/NAMeC-SSL/JLinkSWO.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Etienne SCHMITZ",
+        "email": "contact@etienne-schmitz.com",
+        "url": "https://www.etienne-schmitz.com/"
+      }
+    ],
+    "license": "Apache-2.0",
+    "frameworks": "*",
+    "platforms": "*"
+  }
