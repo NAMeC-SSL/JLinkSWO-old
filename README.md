@@ -21,7 +21,7 @@ Ensure you have installed [all J-Link software](https://www.segger.com/downloads
 
 ## Usage
 
-To use the JLinkSWO library in your code, include the swo.h header and create an instance of the swo::SWO class:
+To use the JLinkSWO library in your code, include the swo.h header and create an instance of the SWO class:
 
 ```cpp
 #include <mbed.h>
