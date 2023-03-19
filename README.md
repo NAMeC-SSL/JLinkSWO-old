@@ -14,7 +14,7 @@ To use the JLinkSWO library in your PlatformIO project, add the following lines 
 
 ```.ini
 lib_deps:
-   https://github.com/NAMeC-SSL/JLinkSWO.git
+   https://github.com/NAMeC-SSL/JLinkSWO.git#main
 ```
 
 Ensure you have installed [all J-Link software](https://www.segger.com/downloads/jlink/).
